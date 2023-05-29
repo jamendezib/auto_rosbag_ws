@@ -1,0 +1,62 @@
+output_folder: /home/robot/Desktop/rosbag
+buffer_size: 2048
+chunk_size: 768
+topics:
+ - /robot/robotnik_base_hw/available_pid
+ - /robot/robotnik_base_hw/emergency_stop
+ - /robot/robotnik_base_hw/emergency_stop_by_input
+ - /robot/robotnik_base_hw/io
+ - /robot/robotnik_base_hw/m1/command_value
+ - /robot/robotnik_base_hw/m1/errors
+ - /robot/robotnik_base_hw/m1/status
+ - /robot/robotnik_base_hw/m1/watchdog_status
+ - /robot/robotnik_base_hw/m2/command_value
+ - /robot/robotnik_base_hw/m2/errors
+ - /robot/robotnik_base_hw/m2/status
+ - /robot/robotnik_base_hw/m2/watchdog_status
+ - /robot/robotnik_base_hw/m3/command_value
+ - /robot/robotnik_base_hw/m3/errors
+ - /robot/robotnik_base_hw/m3/status
+ - /robot/robotnik_base_hw/m3/watchdog_status
+ - /robot/robotnik_base_hw/m4/command_value
+ - /robot/robotnik_base_hw/m4/errors
+ - /robot/robotnik_base_hw/m4/status
+ - /robot/robotnik_base_hw/m4/watchdog_status
+ - /robot/robotnik_base_hw/m5/command_value
+ - /robot/robotnik_base_hw/m5/errors
+ - /robot/robotnik_base_hw/m5/status
+ - /robot/robotnik_base_hw/m5/watchdog_status
+ - /robot/robotnik_base_hw/m6/command_value
+ - /robot/robotnik_base_hw/m6/errors
+ - /robot/robotnik_base_hw/m6/status
+ - /robot/robotnik_base_hw/m6/watchdog_status
+ - /robot/robotnik_base_hw/m7/command_value
+ - /robot/robotnik_base_hw/m7/errors
+ - /robot/robotnik_base_hw/m7/status
+ - /robot/robotnik_base_hw/m7/watchdog_status
+ - /robot/robotnik_base_hw/m8/command_value
+ - /robot/robotnik_base_hw/m8/errors
+ - /robot/robotnik_base_hw/m8/status
+ - /robot/robotnik_base_hw/m8/watchdog_status
+ - /robot/robotnik_base_hw/state
+ - /robot/robotnik_base_hw/status
+ - /robot/robotnik_base_hw/velocity_pid
+ - /robot/robotnik_base_hw/voltage
+ - /robot/joint_states
+ - /robot/cmd_vel
+ - /robot/docker/cmd_vel
+ - /robot/move/cmd_vel
+ - /robot/move_base/cmd_vel
+ - /robot/pad_teleop/cmd_vel
+ - /robot/robotnik_base_control/cmd_vel
+ - /robot/urcap_command_bridge/cmd_vel
+ - /robot/web_teleop/cmd_vel
+ - /robot/robotnik_base_control/odom
+ - /robot/throttle/odom
+ - /tf
+ - /tf_static
+split: false
+split_size: 1024
+compression: false
+regex: true
+autostart: true
